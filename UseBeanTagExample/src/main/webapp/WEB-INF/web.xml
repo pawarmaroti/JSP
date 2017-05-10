@@ -1,0 +1,19 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>registerEmp</servlet-name>
+  	<jsp-file>/view/register.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>registerEmp</servlet-name>
+  <url-pattern>/registerEmp</url-pattern>
+ </servlet-mapping>
+  <servlet>
+  	<servlet-name>welcomeEmp</servlet-name>
+  	<jsp-file>/view/welcome.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>welcomeEmp</servlet-name>
+  <url-pattern>/welcomeEmp</url-pattern>
+  </servlet-mapping>
+</web-app>
